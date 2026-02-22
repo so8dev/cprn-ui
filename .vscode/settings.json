@@ -19,9 +19,8 @@
 		"editor.defaultFormatter": "biomejs.biome"
 	},
 	"editor.codeActionsOnSave": {
-		"source.fixAll": "explicit",
-		"source.organizeImports": "explicit",
-		"source.sortMembers": "explicit"
+		"source.fixAll.biome": "explicit",
+		"source.organizeImports.biome": "explicit"
 	},
 	"tailwindCSS.classAttributes": ["style"],
 	"tailwindCSS.classFunctions": ["tw", "tw.color", "tw.style", "cva", "cx"],
