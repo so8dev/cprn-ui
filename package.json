@@ -8,6 +8,7 @@
 		"ios": "expo start --ios",
 		"web": "expo start --web",
 		"lint": "expo lint",
+		"typecheck": "npx tsc --noEmit",
 		"check": "biome check",
 		"check:fix": "biome check --write"
 	},
