@@ -207,5 +207,8 @@ module.exports = {
 				},
 			},
 		},
+		data: {
+			invalid: "invalid=true",
+		},
 	},
 };

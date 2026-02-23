@@ -1,0 +1,85 @@
+import { cva } from "class-variance-authority";
+
+export const vStackVariants = cva("flex flex-col bg-transparent", {
+	variants: {
+		flex: {
+			1: "flex-1",
+			2: "flex-2",
+			3: "flex-3",
+			grow: "flex-grow",
+		},
+		justify: {
+			start: "justify-start",
+			center: "justify-center",
+			end: "justify-end",
+			between: "justify-between",
+			around: "justify-around",
+		},
+		items: {
+			start: "items-start",
+			center: "items-center",
+			end: "items-end",
+			stretch: "items-stretch",
+		},
+		gap: {
+			0: "gap-0",
+			1: "gap-1",
+			2: "gap-2",
+			3: "gap-3",
+			4: "gap-4",
+		},
+		p: {
+			0: "p-0",
+			1: "p-1",
+			2: "p-2",
+			3: "p-3",
+			4: "p-4",
+			5: "p-5",
+			6: "p-6",
+		},
+		pl: {
+			0: "pl-0",
+			1: "pl-1",
+			2: "pl-2",
+			3: "pl-3",
+			4: "pl-4",
+			5: "pl-5",
+			6: "pl-6",
+		},
+		pr: {
+			0: "pr-0",
+			1: "pr-1",
+			2: "pr-2",
+			3: "pr-3",
+			4: "pr-4",
+			5: "pr-5",
+			6: "pr-6",
+		},
+		pt: {
+			0: "pt-0",
+			1: "pt-1",
+			2: "pt-2",
+			3: "pt-3",
+			4: "pt-4",
+			5: "pt-5",
+			6: "pt-6",
+		},
+		pb: {
+			0: "pb-0",
+			1: "pb-1",
+			2: "pb-2",
+			3: "pb-3",
+			4: "pb-4",
+			5: "pb-5",
+			6: "pb-6",
+		},
+		bg: {
+			transparent: "transparent",
+			background: "bg-background",
+		},
+	},
+	defaultVariants: {
+		gap: 2,
+		p: 0,
+	},
+});
